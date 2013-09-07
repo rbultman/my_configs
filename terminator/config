@@ -1,0 +1,103 @@
+[global_config]
+  title_transmit_bg_color = "#000000"
+  title_inactive_bg_color = "#000000"
+[keybindings]
+  hide_window = <Shift><Control>a
+[profiles]
+  [[solarized-dark]]
+    scrollbar_position = hidden
+    palette = "#00080a:#f33733:#859900:#c78d00:#268bd2:#d33682:#2aa198:#eee8d5:#000f14:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    background_darkness = 1.0
+    scrollback_lines = 5000
+    use_system_font = False
+    cursor_color = "#eee8d5"
+    foreground_color = "#eee8d5"
+    scroll_on_output = False
+    show_titlebar = False
+    color_scheme = custom
+    font = Monospace 8
+    background_color = "#00070a"
+    scrollback_infinite = True
+  [[solarized-light]]
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    background_darkness = 1.0
+    scrollback_lines = 5000
+    use_system_font = False
+    cursor_color = "#002b36"
+    foreground_color = "#002b36"
+    scroll_on_output = False
+    show_titlebar = False
+    color_scheme = custom
+    font = Monospace 10
+    background_color = "#eee8d5"
+    scrollback_infinite = True
+  [[molokai]]
+    palette = "#101010:#960050:#66aa11:#c47f2c:#30309b:#7e40a5:#3579a8:#9999aa:#303030:#ff0090:#80ff00:#ffba68:#5f5fee:#bb88dd:#4eb4fa:#d0d0d0"
+    use_system_font = False
+    cursor_color = "#d0d0d0"
+    foreground_color = "#d0d0d0"
+    show_titlebar = False
+    font = Monospace 9
+    background_color = "#101010"
+  [[Vibrant Ink]]
+    palette = "#000000:#cc0000:#408000:#ec691e:#3465a4:#800080:#06989a:#aaaaaa:#555753:#ff0000:#80ff00:#fce94f:#729fcf:#8c3fc8:#34e2e2:#eeeeec"
+    font = Monospace 8
+    use_system_font = False
+    foreground_color = "#ffffff"
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    background_darkness = 1.0
+    scrollback_lines = 5000
+    use_system_font = False
+    cursor_color = "#ffffff"
+    foreground_color = "#ffffff"
+    scroll_on_output = False
+    show_titlebar = False
+    color_scheme = custom
+    font = Monospace 8
+    scrollback_infinite = True
+  [[xterm]]
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#1e90ff:#cd00cd:#00cdcd:#e5e5e5:#4c4c4c:#ff0000:#00ff00:#ffff00:#4682b4:#ff00ff:#00ffff:#ffffff"
+    font = Monospace 9
+    use_system_font = False
+  [[Base16-default]]
+    palette = "#151515:#ac4142:#90a959:#f4bf75:#6a9fb5:#aa759f:#75b5aa:#d0d0d0:#505050:#d28445:#202020:#303030:#b0b0b0:#e0e0e0:#8f5536:#f5f5f5"
+    use_system_font = False
+    cursor_color = "#d0d0d0"
+    foreground_color = "#d0d0d0"
+    font = Monospace 9
+    background_color = "#151515"
+  [[jellybeans]]
+    palette = "#1c1c1c:#b85335:#799d6a:#ffb964:#667899:#8787af:#668799:#888888:#404040:#cf6a4c:#99ad6a:#fad07a:#8197bf:#c6b6ee:#8fbfdc:#e8e8d3"
+    use_system_font = False
+    cursor_color = "#888888"
+    foreground_color = "#888888"
+    show_titlebar = False
+    font = Monospace 8
+    background_color = "#151515"
+  [[Base16-Railscasts]]
+    palette = "#2b2b2b:#da4939:#a5c261:#ffc66d:#6d9cbe:#b6b3eb:#519f50:#e6e1dc:#5a647e:#cc7833:#272935:#3a4055:#d4cfc9:#f4f1ed:#bc9458:#f9f7f3"
+    use_system_font = False
+    cursor_color = "#e6e1dc"
+    foreground_color = "#e6e1dc"
+    font = Monospace 9
+    background_color = "#2b2b2b"
+  [[Base16-Monokai]]
+    palette = "#272822:#f92672:#a6e22e:#f4bf75:#66d9ef:#ae81ff:#a1efe4:#f8f8f2:#75715e:#fd971f:#383830:#49483e:#a59f85:#f5f4f1:#cc6633:#f9f8f5"
+    use_system_font = False
+    cursor_color = "#f8f8f2"
+    foreground_color = "#f8f8f2"
+    show_titlebar = False
+    font = Monospace 9
+    background_color = "#272822"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
