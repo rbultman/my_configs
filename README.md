@@ -1,11 +1,11 @@
-# A place to stick common config files for use across multiple machines.
+A place to stick common config files for use across multiple machines.
 
-## Background
+#### Background
 Configuration files are stored in your home directory in .config in a series of directories,
 one per configuration file.  If you want to share these configuration files across multiple
 machines, you can use github to do so.
 
-The basic pattern is:
+#### From the start
 
 1. Create a github repo in order to store your config files.
 2. Create a directory in which to store the files.
