@@ -6,6 +6,7 @@ one per configuration file.  If you want to share these configuration files acro
 machines, you can use github to do so.
 
 The basic pattern is:
+
 1. Create a github repo in order to store your config files.
 2. Create a directory in which to store the files.
     mkdir ~/.my_configs
