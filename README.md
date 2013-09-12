@@ -52,3 +52,11 @@ associated with the config file.
     git push -u origin master
 
 
+#### Using on a new machine
+
+1. mkdir .my_configs
+
+2. cd .my_configs
+
+3. git clone http://the-repo-location .
+ 
